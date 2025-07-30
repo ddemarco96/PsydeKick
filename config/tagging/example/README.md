@@ -1,0 +1,1 @@
+Some options are left as examples in conditions.csv even though they don't map to anything in this setup.

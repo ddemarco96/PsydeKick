@@ -1,0 +1,26 @@
+{
+  "id": "623b7c4dfecd6efa17f39822",
+  "name": "Fitbit Reminder",
+  "type": "MOBILE",
+  "archived": false,
+  "triggers": [],
+  "questions": [
+    {
+      "id": "623b7cecfecd6efa17f399c5",
+      "question": "fitbit://test.app",
+      "type": "INFORMATION",
+      "variableName": "quest_1648065772579",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "attachments": {
+        "web": "fitbit://",
+        "text": "Click here"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    }
+  ]
+}

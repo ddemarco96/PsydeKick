@@ -1,0 +1,8 @@
+id,group_id,skip_behavior,operator,value
+20,11,0,>=,8
+30,20,1,not_empty,
+34,23,0,contains,Yes
+35,23,0,contains,Don't know
+37,24,0,between,"[1,7]"
+38,25,0,==,0
+42,27,1,==,SKIPPED

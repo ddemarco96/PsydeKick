@@ -1,0 +1,152 @@
+{
+  "id": "621920605978cd435ce7cf72",
+  "workspaceId": "5fb5c34fae9a634696d746d1",
+  "researcherName": "Dylan DeMarco",
+  "researcherEmail": "ddemarco@fas.harvard.edu",
+  "name": "Catalyst API playground",
+  "description": "test study for Atheneum",
+  "surveys": [
+    {
+      "id": "621920605978cd435ce7cef5",
+      "name": "Reg NIS Test ($)",
+      "type": "MOBILE",
+      "archived": false,
+      "triggers": [
+        {
+          "id": "621920605978cd435ce7cf53",
+          "name": "Daily 9-5",
+          "type": "DAILY"
+        },
+        {
+          "id": "621920605978cd435ce7cf56",
+          "name": "Monday time",
+          "type": "ONCE"
+        },
+        {
+          "id": "621920605978cd435ce7cf57",
+          "name": "Manual send",
+          "type": "ONCE"
+        },
+        {
+          "id": "62c4ef00ab580ba6f5198f30",
+          "name": "again",
+          "type": "ONCE"
+        },
+        {
+          "id": "62c5c8b3ed12da2e0e645613",
+          "name": "insanity check",
+          "type": "ONCE"
+        },
+        {
+          "id": "62c62a81509d9b8c8c0ad9d6",
+          "name": "last one",
+          "type": "ONCE"
+        },
+        {
+          "id": "62c62c038c8fc952d4e7e0b0",
+          "name": "",
+          "type": "ONCE"
+        },
+        {
+          "id": "62d1a22ac8e757c4ffab2669",
+          "name": "testing text reminder",
+          "type": "ONCE"
+        },
+        {
+          "id": "62d1a378c8e757c4ffab27c1",
+          "name": "foobie doobie doo",
+          "type": "ONCE"
+        },
+        {
+          "id": "621920605978cd435ce7cf48",
+          "name": "Response based"
+        }
+      ],
+      "internalName": "Reg NIS Test (SP: \"Completed a survey\")"
+    },
+    {
+      "id": "621920605978cd435ce7cf30",
+      "name": "Follow up",
+      "type": "MOBILE",
+      "archived": false,
+      "triggers": [
+        {
+          "id": "621920605978cd435ce7cf58",
+          "name": "One time noty (out of time)",
+          "type": "ONCE"
+        },
+        {
+          "id": "621920605978cd435ce7cf59",
+          "name": "One Time Expiring",
+          "type": "ONCE"
+        },
+        {
+          "id": "621920605978cd435ce7cf5a",
+          "name": "One time noty with answer",
+          "type": "ONCE"
+        },
+        {
+          "id": "62c62b228c8fc952d4e7dfd9",
+          "name": "",
+          "type": "ONCE"
+        },
+        {
+          "id": "62c62baa509d9b8c8c0adbc4",
+          "name": "",
+          "type": "ONCE"
+        }
+      ]
+    },
+    {
+      "id": "621920605978cd435ce7cf38",
+      "name": "Daily Survey C",
+      "type": "MOBILE",
+      "archived": false,
+      "triggers": [
+        {
+          "id": "621920605978cd435ce7cf5b",
+          "name": "ONGOING Trigger",
+          "type": "ONGOING"
+        },
+        {
+          "id": "621920605978cd435ce7cf5c",
+          "name": "ONCE Trigger",
+          "type": "ONCE"
+        },
+        {
+          "id": "621920605978cd435ce7cf5d",
+          "name": "ONCE Trigger",
+          "type": "ONCE"
+        },
+        {
+          "id": "62c62d02509d9b8c8c0add97",
+          "name": "",
+          "type": "ONCE"
+        }
+      ]
+    },
+    {
+      "id": "623b7c4dfecd6efa17f39822",
+      "name": "Fitbit Reminder",
+      "type": "MOBILE",
+      "archived": false,
+      "triggers": []
+    },
+    {
+      "id": "6219657648ff3b5bb084eb39",
+      "name": "Activity 1",
+      "type": "MOBILE",
+      "archived": false,
+      "diary": {
+        "_id": "621920f334708df50b45d5d0",
+        "name": "Anytime Survey",
+        "internal": {
+          "name": "internal name for Anytime Survey"
+        }
+      },
+      "triggers": []
+    }
+  ],
+  "created": 1645813856735,
+  "updated": 1670621054666
+}

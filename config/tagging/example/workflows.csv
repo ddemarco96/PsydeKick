@@ -1,0 +1,2 @@
+id,workflow_type,logical_operator,tag_id,name,description
+9,1,OR,16,Tag sessions as high risk,High Risk: intent >= 8 OR (urge >=8 AND intent > 0)

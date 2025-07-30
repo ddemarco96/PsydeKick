@@ -1,0 +1,253 @@
+{
+  "surveyMeta": {
+    "621920605978cd435ce7cf39": {
+      "surveyName": "Daily Survey C",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cf38",
+      "id": "621920605978cd435ce7cf39",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "What's this demoing?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "TEXT",
+      "variableName": "demo_1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf3a": {
+      "surveyName": "Daily Survey C",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cf38",
+      "id": "621920605978cd435ce7cf3a",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "C1_content",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "TEXT",
+      "variableName": "C1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [
+          "d.demarco996@gmail.com"
+        ],
+        "invert": true
+      }
+    },
+    "621920605978cd435ce7cf3b": {
+      "surveyName": "Daily Survey C",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cf38",
+      "id": "621920605978cd435ce7cf3b",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf3f",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf3c"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf40",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf3d"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf41",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf3e"
+          }
+        ],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "C2_content",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "SINGLE_CHOICE",
+      "variableName": "C2",
+      "isDisabled": false,
+      "required": true,
+      "isHidden": false,
+      "choices": [
+        "neat",
+        "okay",
+        "rad"
+      ],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf42": {
+      "surveyName": "Daily Survey C",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cf38",
+      "id": "621920605978cd435ce7cf42",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Here's a cool video I added after forgetting in the first 3 sessions:",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "web",
+      "type": "INFORMATION",
+      "variableName": "web_1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    }
+  },
+  "submissions": [
+    {
+      "responseId": "62c62d1d509d9b8c8c0addcf",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cf38",
+      "userId": "5fbad2f7fe09383c7895afd0",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "dff554c9-ef6e-4563-aa9b-2dc20f53e4ef",
+      "trigger": {
+        "id": "62c62d02509d9b8c8c0add97",
+        "timestamp": 1657154760000,
+        "index": 1,
+        "type": "ONCE",
+        "name": ""
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.5",
+        "appVersion": "1.8.6",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "627ac263464fecb01aa7f87f",
+      "timestamp": {
+        "updated": 1657154845247,
+        "created": 1657154826896
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "621920605978cd435ce7cf39": {
+          "response": "idr",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:06"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:12"
+            }
+          }
+        },
+        "621920605978cd435ce7cf3b": {
+          "response": "neat",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:12"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:14"
+            }
+          }
+        },
+        "621920605978cd435ce7cf42": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:15"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:15"
+            }
+          }
+        },
+        "621920605978cd435ce7cf3a": {
+          "response": "",
+          "dynamicDisplayConditionSkipped": true
+        }
+      },
+      "userInfo": {
+        "userId": "5fbad2f7fe09383c7895afd0"
+      },
+      "timeZoneMinutes": -240,
+      "timeZoneReadable": "-4:00",
+      "triggerTimeLocal": {
+        "date": "06/07/2022",
+        "time": "20:46:00"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:47:06"
+      },
+      "timestampUpdatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:47:25"
+      }
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "total": 1,
+    "totalMissed": 0,
+    "randomizedOutSubmissionsCount": 0,
+    "currentPage": 1,
+    "totalPages": 1
+  },
+  "studyName": "Catalyst API playground",
+  "surveyName": "Daily Survey C"
+}

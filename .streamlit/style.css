@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #339999 !important;
+    --font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar-footer {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    color: #888;
+}
+.stAppDeployButton {
+    display: none;
+}
+
+.auto-delete-status {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 4px 0;
+    background-color: #f5f5f5;
+    border-left: 4px solid #ffc107;
+}
+
+.auto-delete-status.auto-delete-deadline-urgent {
+    background: #FCEAE9;
+    border-left-color: #CF483B;
+}
+
+.auto-quit-status {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 4px 0;
+    background-color: #f5f5f5;
+    border-left: 4px solid #ffc107;
+}
+
+.auto-quit-status.auto-quit-warning {
+    background: #FCEAE9;
+    border-left-color: #CF483B;
+}
+
+/* Reduce spacing between header and timestamp */
+.auto-delete-status p,
+.auto-quit-status p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.auto-delete-status p b,
+.auto-quit-status p b {
+    display: block;
+    margin-bottom: 2px;
+}

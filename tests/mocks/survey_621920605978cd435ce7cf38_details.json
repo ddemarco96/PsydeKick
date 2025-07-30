@@ -1,0 +1,152 @@
+{
+  "id": "621920605978cd435ce7cf38",
+  "name": "Daily Survey C",
+  "type": "MOBILE",
+  "archived": false,
+  "triggers": [
+    {
+      "id": "621920605978cd435ce7cf5b",
+      "name": "ONGOING Trigger",
+      "type": "ONGOING"
+    },
+    {
+      "id": "621920605978cd435ce7cf5c",
+      "name": "ONCE Trigger",
+      "type": "ONCE"
+    },
+    {
+      "id": "621920605978cd435ce7cf5d",
+      "name": "ONCE Trigger",
+      "type": "ONCE"
+    },
+    {
+      "id": "62c62d02509d9b8c8c0add97",
+      "name": "",
+      "type": "ONCE"
+    }
+  ],
+  "questions": [
+    {
+      "id": "621920605978cd435ce7cf39",
+      "question": "What's this demoing?",
+      "type": "TEXT",
+      "variableName": "demo_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf3a",
+      "question": "C1_content",
+      "type": "TEXT",
+      "variableName": "C1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf3b",
+      "question": "C2_content",
+      "type": "SINGLE_CHOICE",
+      "variableName": "C2",
+      "isRequired": true,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf3f",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf3c",
+            "text": "neat"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf40",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf3d",
+            "text": "okay"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf41",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf3e",
+            "text": "rad"
+          }
+        ]
+      },
+      "choiceObjects": [
+        {
+          "text": "neat",
+          "styledText": "neat",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf3f",
+          "exclusive": false
+        },
+        {
+          "text": "okay",
+          "styledText": "okay",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf40",
+          "exclusive": false
+        },
+        {
+          "text": "rad",
+          "styledText": "rad",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf41",
+          "exclusive": false
+        }
+      ],
+      "choices": [
+        {
+          "id": "621920605978cd435ce7cf3f",
+          "choice": "neat",
+          "anchored": false,
+          "exclusive": false,
+          "value": 1
+        },
+        {
+          "id": "621920605978cd435ce7cf40",
+          "choice": "okay",
+          "anchored": false,
+          "exclusive": false,
+          "value": 2
+        },
+        {
+          "id": "621920605978cd435ce7cf41",
+          "choice": "rad",
+          "anchored": false,
+          "exclusive": false,
+          "value": 3
+        }
+      ],
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf42",
+      "question": "Here's a cool video I added after forgetting in the first 3 sessions:",
+      "type": "INFORMATION",
+      "variableName": "web_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "attachments": {
+        "web": "https://www.youtube.com/watch/dQw4w9WgXcQ",
+        "text": "Check it out!"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    }
+  ]
+}

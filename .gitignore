@@ -1,0 +1,15 @@
+data/**
+.DS_Store
+dist
+build
+__pycache__
+.venv-*
+tmp
+planning
+.env
+.venv-arm64/
+.venv-x86_64/
+*.app
+*.dmg
+*.pyc
+*.pyo

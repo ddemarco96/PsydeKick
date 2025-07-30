@@ -1,0 +1,114 @@
+{
+  "id": "621920605978cd435ce7cf30",
+  "name": "Follow up",
+  "type": "MOBILE",
+  "archived": false,
+  "triggers": [
+    {
+      "id": "621920605978cd435ce7cf58",
+      "name": "One time noty (out of time)",
+      "type": "ONCE"
+    },
+    {
+      "id": "621920605978cd435ce7cf59",
+      "name": "One Time Expiring",
+      "type": "ONCE"
+    },
+    {
+      "id": "621920605978cd435ce7cf5a",
+      "name": "One time noty with answer",
+      "type": "ONCE"
+    },
+    {
+      "id": "62c62b228c8fc952d4e7dfd9",
+      "name": "",
+      "type": "ONCE"
+    },
+    {
+      "id": "62c62baa509d9b8c8c0adbc4",
+      "name": "",
+      "type": "ONCE"
+    }
+  ],
+  "questions": [
+    {
+      "id": "621920605978cd435ce7cf31",
+      "question": "Just wanna be really sure: You know Noch's is trash in comparison to Maharaja right?",
+      "type": "SINGLE_CHOICE",
+      "variableName": "nochs_trash_mcq",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf35",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf32",
+            "text": "Of course"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf36",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf33",
+            "text": "Absolutely"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf37",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf34",
+            "text": "Without a doubt"
+          }
+        ]
+      },
+      "choiceObjects": [
+        {
+          "text": "Of course",
+          "styledText": "Of course",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf35",
+          "exclusive": false
+        },
+        {
+          "text": "Absolutely",
+          "styledText": "Absolutely",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf36",
+          "exclusive": false
+        },
+        {
+          "text": "Without a doubt",
+          "styledText": "Without a doubt",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf37",
+          "exclusive": false
+        }
+      ],
+      "choices": [
+        {
+          "id": "621920605978cd435ce7cf35",
+          "choice": "Of course",
+          "anchored": false,
+          "exclusive": false,
+          "value": 1
+        },
+        {
+          "id": "621920605978cd435ce7cf36",
+          "choice": "Absolutely",
+          "anchored": false,
+          "exclusive": false,
+          "value": 2
+        },
+        {
+          "id": "621920605978cd435ce7cf37",
+          "choice": "Without a doubt",
+          "anchored": false,
+          "exclusive": false,
+          "value": 3
+        }
+      ],
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    }
+  ]
+}

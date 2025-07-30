@@ -1,0 +1,45 @@
+{
+  "surveyMeta": {
+    "623b7cecfecd6efa17f399c5": {
+      "surveyName": "Fitbit Reminder",
+      "surveyType": "MOBILE",
+      "surveyId": "623b7c4dfecd6efa17f39822",
+      "id": "623b7cecfecd6efa17f399c5",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "fitbit://test.app",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "web",
+      "type": "INFORMATION",
+      "variableName": "quest_1648065772579",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    }
+  },
+  "submissions": [],
+  "meta": {
+    "count": 0,
+    "total": 0,
+    "totalMissed": 0,
+    "randomizedOutSubmissionsCount": 0,
+    "currentPage": 1,
+    "totalPages": 1
+  },
+  "studyName": "Catalyst API playground",
+  "surveyName": "Fitbit Reminder"
+}

@@ -1,0 +1,192 @@
+{
+  "surveyMeta": {
+    "621920605978cd435ce7cf31": {
+      "surveyName": "Follow up",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cf30",
+      "id": "621920605978cd435ce7cf31",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf35",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf32"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf36",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf33"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf37",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf34"
+          }
+        ],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Just wanna be really sure: You know Noch's is trash in comparison to Maharaja right?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "SINGLE_CHOICE",
+      "variableName": "nochs_trash_mcq",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [
+        "Of course",
+        "Absolutely",
+        "Without a doubt"
+      ],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    }
+  },
+  "submissions": [
+    {
+      "responseId": "62c62b3b8c8fc952d4e7dff2",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cf30",
+      "userId": "5fbad2f7fe09383c7895afd0",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "1f0f1d33-1c0d-4fc5-a017-539ac91d50d1",
+      "trigger": {
+        "id": "62c62b228c8fc952d4e7dfd9",
+        "timestamp": 1657154280000,
+        "index": 1,
+        "type": "ONCE",
+        "name": ""
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.5",
+        "appVersion": "1.8.6",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "627ac263464fecb01aa7f87f",
+      "timestamp": {
+        "updated": 1657154363726,
+        "created": 1657154360023
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "621920605978cd435ce7cf31": {
+          "response": "Absolutely",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:39:20"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:39:23"
+            }
+          }
+        }
+      },
+      "userInfo": {
+        "userId": "5fbad2f7fe09383c7895afd0"
+      },
+      "timeZoneMinutes": -240,
+      "timeZoneReadable": "-4:00",
+      "triggerTimeLocal": {
+        "date": "06/07/2022",
+        "time": "20:38:00"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:39:20"
+      },
+      "timestampUpdatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:39:23"
+      }
+    },
+    {
+      "responseId": "62c62be0509d9b8c8c0adbe3",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cf30",
+      "userId": "5fbad2f7fe09383c7895afd0",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "61e47978-5af2-45bd-acd6-a49efbff4b52",
+      "trigger": {
+        "id": "62c62baa509d9b8c8c0adbc4",
+        "timestamp": 1657154460000,
+        "index": 1,
+        "type": "ONCE",
+        "name": ""
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.5",
+        "appVersion": "1.8.6",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "627ac263464fecb01aa7f87f",
+      "timestamp": {
+        "updated": 1657154528589,
+        "created": 1657154527203
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "621920605978cd435ce7cf31": {
+          "response": "Of course",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:42:07"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:42:08"
+            }
+          }
+        }
+      },
+      "userInfo": {
+        "userId": "5fbad2f7fe09383c7895afd0"
+      },
+      "timeZoneMinutes": -240,
+      "timeZoneReadable": "-4:00",
+      "triggerTimeLocal": {
+        "date": "06/07/2022",
+        "time": "20:41:00"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:42:07"
+      },
+      "timestampUpdatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:42:08"
+      }
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "total": 2,
+    "totalMissed": 0,
+    "randomizedOutSubmissionsCount": 0,
+    "currentPage": 1,
+    "totalPages": 1
+  },
+  "studyName": "Catalyst API playground",
+  "surveyName": "Follow up"
+}

@@ -1,0 +1,349 @@
+{
+  "surveyMeta": {
+    "6219658248ff3b5bb084eb5e": {
+      "surveyName": "Activity 1",
+      "surveyType": "MOBILE",
+      "surveyId": "6219657648ff3b5bb084eb39",
+      "id": "6219658248ff3b5bb084eb5e",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Why did you open this",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "TEXT",
+      "variableName": "quest_1645831554055",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    }
+  },
+  "submissions": [
+    {
+      "responseId": "621965be48ff3b5bb084ebc9",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "6219657648ff3b5bb084eb39",
+      "userId": "621962dfd8a820142555ba0f",
+      "diaryId": "621920f334708df50b45d5d0",
+      "diaryName": "Anytime Survey",
+      "diarySessionId": "389ccd9f-ea73-4a33-8002-f914d7ff123e",
+      "trigger": {
+        "id": "6219653848ff3b5bb084eaf8",
+        "timestamp": 1645831606660,
+        "index": 1,
+        "type": "ONGOING",
+        "name": "Always Available"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.3.1",
+        "appVersion": "1.3.2",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Diary",
+      "deviceId": "621964bbd8a820142555ba31",
+      "timestamp": {
+        "updated": 1645831614521,
+        "created": 1645831614521
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "6219658248ff3b5bb084eb5e": {
+          "response": "neat",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "25/02/2022",
+              "time": "18:26:54"
+            },
+            "updated": {
+              "date": "25/02/2022",
+              "time": "18:26:54"
+            }
+          }
+        }
+      },
+      "timeZoneMinutes": -300,
+      "timeZoneReadable": "-5:00",
+      "triggerTimeLocal": {
+        "date": "25/02/2022",
+        "time": "18:26:46"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "25/02/2022",
+        "time": "18:26:54"
+      },
+      "timestampUpdatedLocal": {
+        "date": "25/02/2022",
+        "time": "18:26:54"
+      }
+    },
+    {
+      "responseId": "621968b6177d132a71071b99",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "6219657648ff3b5bb084eb39",
+      "userId": "621962dfd8a820142555ba0f",
+      "diaryId": "621920f334708df50b45d5d0",
+      "diaryName": "Anytime Survey",
+      "diarySessionId": "45907944-19c9-4795-a974-84ca41cbba6a",
+      "trigger": {
+        "id": "6219653848ff3b5bb084eaf8",
+        "timestamp": 1645832357444,
+        "index": 1,
+        "type": "ONGOING",
+        "name": "Always Available"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.3.1",
+        "appVersion": "1.3.2",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Diary",
+      "deviceId": "621964bbd8a820142555ba31",
+      "timestamp": {
+        "updated": 1645832374427,
+        "created": 1645832374427
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "6219658248ff3b5bb084eb5e": {
+          "response": "to see if surveys are still submitting",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "25/02/2022",
+              "time": "18:39:34"
+            },
+            "updated": {
+              "date": "25/02/2022",
+              "time": "18:39:34"
+            }
+          }
+        }
+      },
+      "timeZoneMinutes": -300,
+      "timeZoneReadable": "-5:00",
+      "triggerTimeLocal": {
+        "date": "25/02/2022",
+        "time": "18:39:17"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "25/02/2022",
+        "time": "18:39:34"
+      },
+      "timestampUpdatedLocal": {
+        "date": "25/02/2022",
+        "time": "18:39:34"
+      }
+    },
+    {
+      "responseId": "6227b5ab1a7d7d4a1cc4e8e5",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "6219657648ff3b5bb084eb39",
+      "userId": "621962dfd8a820142555ba0f",
+      "diaryId": "621920f334708df50b45d5d0",
+      "diaryName": "Anytime Survey",
+      "diarySessionId": "d763cefb-058c-4af8-84f4-65b9f547d042",
+      "submissionSessionId": "222ae23f-dba7-4da1-9ceb-5634f151f659",
+      "trigger": {
+        "id": "6227b58f1a7d7d4a1cc4e8c6",
+        "timestamp": 1646769566821,
+        "index": 1,
+        "type": "ONGOING",
+        "name": "recurring daily"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.3.1",
+        "appVersion": "1.4.4",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Diary",
+      "deviceId": "621964bbd8a820142555ba31",
+      "timestamp": {
+        "updated": 1646769579044,
+        "created": 1646769566821
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "6219658248ff3b5bb084eb5e": {
+          "response": "does this get answered multiple times",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:59:26"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:59:39"
+            }
+          }
+        }
+      },
+      "timeZoneMinutes": -300,
+      "timeZoneReadable": "-5:00",
+      "triggerTimeLocal": {
+        "date": "08/03/2022",
+        "time": "14:59:26"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "08/03/2022",
+        "time": "14:59:26"
+      },
+      "timestampUpdatedLocal": {
+        "date": "08/03/2022",
+        "time": "14:59:39"
+      }
+    },
+    {
+      "responseId": "6227b5b81a7d7d4a1cc4e8ed",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "6219657648ff3b5bb084eb39",
+      "userId": "621962dfd8a820142555ba0f",
+      "diaryId": "621920f334708df50b45d5d0",
+      "diaryName": "Anytime Survey",
+      "diarySessionId": "9ca97a78-1160-4ca1-a4e9-49a1a083c3fc",
+      "submissionSessionId": "08262651-fc76-454e-b27c-a9e4d79ee22e",
+      "trigger": {
+        "id": "6227b58f1a7d7d4a1cc4e8c6",
+        "timestamp": 1646769588877,
+        "index": 1,
+        "type": "ONGOING",
+        "name": "recurring daily"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.3.1",
+        "appVersion": "1.4.4",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Diary",
+      "deviceId": "621964bbd8a820142555ba31",
+      "timestamp": {
+        "updated": 1646769591858,
+        "created": 1646769591858
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "6219658248ff3b5bb084eb5e": {
+          "response": "yes",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:59:51"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:59:51"
+            }
+          }
+        }
+      },
+      "timeZoneMinutes": -300,
+      "timeZoneReadable": "-5:00",
+      "triggerTimeLocal": {
+        "date": "08/03/2022",
+        "time": "14:59:48"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "08/03/2022",
+        "time": "14:59:51"
+      },
+      "timestampUpdatedLocal": {
+        "date": "08/03/2022",
+        "time": "14:59:51"
+      }
+    },
+    {
+      "responseId": "6227b5c32c65f5e3cdc49194",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "6219657648ff3b5bb084eb39",
+      "userId": "621962dfd8a820142555ba0f",
+      "diaryId": "621920f334708df50b45d5d0",
+      "diaryName": "Anytime Survey",
+      "diarySessionId": "3477b851-f181-4a3c-834c-af94377acf6a",
+      "submissionSessionId": "0f18a5b4-44cb-4266-ab9f-5332e1854b67",
+      "trigger": {
+        "id": "6227b58f1a7d7d4a1cc4e8c6",
+        "timestamp": 1646769599124,
+        "index": 1,
+        "type": "ONGOING",
+        "name": "recurring daily"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.3.1",
+        "appVersion": "1.4.4",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Diary",
+      "deviceId": "621964bbd8a820142555ba31",
+      "timestamp": {
+        "updated": 1646769602932,
+        "created": 1646769599124
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "6219658248ff3b5bb084eb5e": {
+          "response": "button weird",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:59:59"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:00:02"
+            }
+          }
+        }
+      },
+      "timeZoneMinutes": -300,
+      "timeZoneReadable": "-5:00",
+      "triggerTimeLocal": {
+        "date": "08/03/2022",
+        "time": "14:59:59"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "08/03/2022",
+        "time": "14:59:59"
+      },
+      "timestampUpdatedLocal": {
+        "date": "08/03/2022",
+        "time": "15:00:02"
+      }
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "total": 5,
+    "totalMissed": 0,
+    "randomizedOutSubmissionsCount": 0,
+    "currentPage": 1,
+    "totalPages": 1
+  },
+  "studyName": "Catalyst API playground",
+  "surveyName": "Activity 1"
+}

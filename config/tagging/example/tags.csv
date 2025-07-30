@@ -1,0 +1,4 @@
+id,title,color,pattern,explanation
+17,Med/Low Risk,#FFBB33,solid,"(intent = 0 AND urge > 0) OR (intent is between [1, 7] AND urge < 8)"
+16,High Risk,#CF483B,solid,intent >= 8 OR (urge >=8 AND intent > 0)
+18,No Risk,#4E8241,solid,intent = 0 AND urge = 0

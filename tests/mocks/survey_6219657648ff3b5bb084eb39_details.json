@@ -1,0 +1,29 @@
+{
+  "id": "6219657648ff3b5bb084eb39",
+  "name": "Activity 1",
+  "type": "MOBILE",
+  "archived": false,
+  "diary": {
+    "_id": "621920f334708df50b45d5d0",
+    "name": "Anytime Survey",
+    "internal": {
+      "name": "internal name for Anytime Survey"
+    }
+  },
+  "triggers": [],
+  "questions": [
+    {
+      "id": "6219658248ff3b5bb084eb5e",
+      "question": "Why did you open this",
+      "type": "TEXT",
+      "variableName": "quest_1645831554055",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    }
+  ]
+}

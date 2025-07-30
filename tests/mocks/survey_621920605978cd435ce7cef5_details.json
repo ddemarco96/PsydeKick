@@ -1,0 +1,730 @@
+{
+  "id": "621920605978cd435ce7cef5",
+  "name": "Reg NIS Test ($)",
+  "type": "MOBILE",
+  "archived": false,
+  "triggers": [
+    {
+      "id": "621920605978cd435ce7cf53",
+      "name": "Daily 9-5",
+      "type": "DAILY"
+    },
+    {
+      "id": "621920605978cd435ce7cf56",
+      "name": "Monday time",
+      "type": "ONCE"
+    },
+    {
+      "id": "621920605978cd435ce7cf57",
+      "name": "Manual send",
+      "type": "ONCE"
+    },
+    {
+      "id": "62c4ef00ab580ba6f5198f30",
+      "name": "again",
+      "type": "ONCE"
+    },
+    {
+      "id": "62c5c8b3ed12da2e0e645613",
+      "name": "insanity check",
+      "type": "ONCE"
+    },
+    {
+      "id": "62c62a81509d9b8c8c0ad9d6",
+      "name": "last one",
+      "type": "ONCE"
+    },
+    {
+      "id": "62c62c038c8fc952d4e7e0b0",
+      "name": "",
+      "type": "ONCE"
+    },
+    {
+      "id": "62d1a22ac8e757c4ffab2669",
+      "name": "testing text reminder",
+      "type": "ONCE"
+    },
+    {
+      "id": "62d1a378c8e757c4ffab27c1",
+      "name": "foobie doobie doo",
+      "type": "ONCE"
+    },
+    {
+      "id": "621920605978cd435ce7cf48",
+      "name": "Response based"
+    }
+  ],
+  "internalName": "Reg NIS Test (SP: \"Completed a survey\")",
+  "questions": [
+    {
+      "id": "621920605978cd435ce7cefa",
+      "question": "Whatcha thinkin about?",
+      "type": "TEXT",
+      "variableName": "free_text_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "62c4ee79ed12da2e0e63e223",
+      "question": "Whatcha thinkin about?",
+      "type": "TEXT",
+      "variableName": "free_text_1_v2",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "62c4ef256e3575da55b8f8bc",
+      "question": "Whatcha thinkin' about?",
+      "type": "TEXT",
+      "variableName": "free_text_v3",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cefb",
+      "question": "I DECLARE BANKRUPTCY. At least, I think this is a \"cue\" style question",
+      "type": "INFORMATION",
+      "variableName": "read_this",
+      "isRequired": true,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cefc",
+      "question": "Where exactly is the best food in the square?",
+      "type": "GEOLOCATION",
+      "variableName": "geo_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "LOCATION"
+      },
+      "dataType": "LOCATION",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cefd",
+      "question": "fave pizza toppings?",
+      "type": "MULTIPLE_CHOICE",
+      "variableName": "msq_1",
+      "isRequired": true,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING_ARRAY",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf01",
+            "value": 2,
+            "_id": "621920605978cd435ce7cefe",
+            "text": "ham"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf02",
+            "value": 3,
+            "_id": "621920605978cd435ce7ceff",
+            "text": "double pepp ( \u0361\u00b0 \u035c\u0296 \u0361\u00b0) "
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf03",
+            "value": 4,
+            "_id": "621920605978cd435ce7cf00",
+            "text": "pineapple"
+          }
+        ]
+      },
+      "choiceObjects": [
+        {
+          "text": "ham",
+          "styledText": "ham",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf01",
+          "exclusive": false
+        },
+        {
+          "text": "double pepp ( \u0361\u00b0 \u035c\u0296 \u0361\u00b0) ",
+          "styledText": "double pepp ( \u0361\u00b0 \u035c\u0296 \u0361\u00b0) ",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf02",
+          "exclusive": false
+        },
+        {
+          "text": "pineapple",
+          "styledText": "pineapple",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf03",
+          "exclusive": false
+        }
+      ],
+      "choices": [
+        {
+          "id": "621920605978cd435ce7cf01",
+          "choice": "ham",
+          "anchored": false,
+          "exclusive": false,
+          "value": 2
+        },
+        {
+          "id": "621920605978cd435ce7cf02",
+          "choice": "double pepp ( \u0361\u00b0 \u035c\u0296 \u0361\u00b0) ",
+          "anchored": false,
+          "exclusive": false,
+          "value": 3
+        },
+        {
+          "id": "621920605978cd435ce7cf03",
+          "choice": "pineapple",
+          "anchored": false,
+          "exclusive": false,
+          "value": 4
+        }
+      ],
+      "dataType": "STRING_ARRAY",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf04",
+      "question": "Best food in the square?",
+      "type": "SINGLE_CHOICE",
+      "variableName": "mcq_1 (3)",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf08",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf05",
+            "text": "Maharaja"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf09",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf06",
+            "text": "Nochs"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf0a",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf07",
+            "text": "Felipes"
+          }
+        ]
+      },
+      "choiceObjects": [
+        {
+          "text": "Maharaja",
+          "styledText": "Maharaja",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf08",
+          "exclusive": false
+        },
+        {
+          "text": "Nochs",
+          "styledText": "Nochs",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf09",
+          "exclusive": false
+        },
+        {
+          "text": "Felipes",
+          "styledText": "Felipes",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf0a",
+          "exclusive": false
+        }
+      ],
+      "choices": [
+        {
+          "id": "621920605978cd435ce7cf08",
+          "choice": "Maharaja",
+          "anchored": false,
+          "exclusive": false,
+          "value": 1
+        },
+        {
+          "id": "621920605978cd435ce7cf09",
+          "choice": "Nochs",
+          "anchored": false,
+          "exclusive": false,
+          "value": 2
+        },
+        {
+          "id": "621920605978cd435ce7cf0a",
+          "choice": "Felipes",
+          "anchored": false,
+          "exclusive": false,
+          "value": 3
+        }
+      ],
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf0b",
+      "question": "What email do you wish you had?",
+      "type": "EMAIL",
+      "variableName": "email_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf0c",
+      "question": "Drop them digits \ud83d\udc40 hahaha jk...unless?",
+      "type": "PHONE_NUMBER",
+      "variableName": "phone_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf0d",
+      "question": "What has been the longest part of 2020?",
+      "type": "SLIDING_SCALE",
+      "variableName": "slide_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf11",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf0e",
+            "text": "beginning"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf12",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf0f",
+            "text": "middle"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf13",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf10",
+            "text": "end"
+          }
+        ]
+      },
+      "choiceObjects": [
+        {
+          "text": "beginning",
+          "styledText": "beginning",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf11",
+          "exclusive": false
+        },
+        {
+          "text": "middle",
+          "styledText": "middle",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf12",
+          "exclusive": false
+        },
+        {
+          "text": "end",
+          "styledText": "end",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf13",
+          "exclusive": false
+        }
+      ],
+      "choices": [
+        {
+          "id": "621920605978cd435ce7cf11",
+          "choice": "beginning",
+          "anchored": false,
+          "exclusive": false,
+          "value": 1
+        },
+        {
+          "id": "621920605978cd435ce7cf12",
+          "choice": "middle",
+          "anchored": false,
+          "exclusive": false,
+          "value": 2
+        },
+        {
+          "id": "621920605978cd435ce7cf13",
+          "choice": "end",
+          "anchored": false,
+          "exclusive": false,
+          "value": 3
+        }
+      ],
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf14",
+      "question": "How many times in a given week it is appropriate to pickup {{pipe_1}} in pajamas?{{pipe_1}}",
+      "type": "RANGE_SCALE",
+      "variableName": "range_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf18",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf15",
+            "text": "None"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf19",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf16",
+            "text": "Many"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf1a",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf17",
+            "text": "All of the times"
+          }
+        ]
+      },
+      "choiceObjects": [
+        {
+          "text": "None",
+          "styledText": "None",
+          "anchored": false,
+          "rangeSteps": 3,
+          "_id": "621920605978cd435ce7cf18",
+          "exclusive": false
+        },
+        {
+          "text": "Many",
+          "styledText": "Many",
+          "anchored": false,
+          "rangeSteps": 4,
+          "_id": "621920605978cd435ce7cf19",
+          "exclusive": false
+        },
+        {
+          "text": "All of the times",
+          "styledText": "All of the times",
+          "anchored": false,
+          "rangeSteps": 5,
+          "_id": "621920605978cd435ce7cf1a",
+          "exclusive": false
+        }
+      ],
+      "choices": [
+        {
+          "id": "621920605978cd435ce7cf18",
+          "choice": "None",
+          "anchored": false,
+          "exclusive": false,
+          "rangeSteps": 3,
+          "value": 1
+        },
+        {
+          "id": "621920605978cd435ce7cf19",
+          "choice": "Many",
+          "anchored": false,
+          "exclusive": false,
+          "rangeSteps": 4,
+          "value": 2
+        },
+        {
+          "id": "621920605978cd435ce7cf1a",
+          "choice": "All of the times",
+          "anchored": false,
+          "exclusive": false,
+          "rangeSteps": 5,
+          "value": 3
+        }
+      ],
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf1b",
+      "question": "What even is this type?? How does this question type make Dylan feel?",
+      "type": "IMAGE_SLIDER",
+      "variableName": "image_slider",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf1e",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf1c",
+            "text": "Harold"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf1f",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf1d",
+            "text": "Taxi Cat"
+          }
+        ]
+      },
+      "choiceObjects": [
+        {
+          "text": "Harold",
+          "styledText": "Harold",
+          "imageUrl": "https://metricwire-research.s3.amazonaws.com/instrumentFiles/1605827470999$$harold.jpg",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf1e",
+          "exclusive": false
+        },
+        {
+          "text": "Taxi Cat",
+          "styledText": "Taxi Cat",
+          "imageUrl": "https://metricwire-research.s3.amazonaws.com/instrumentFiles/1605827484899$$taxi_cat.jpg",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf1f",
+          "exclusive": false
+        }
+      ],
+      "choices": [
+        {
+          "id": "621920605978cd435ce7cf1e",
+          "choice": "Harold",
+          "anchored": false,
+          "exclusive": false,
+          "value": 1
+        },
+        {
+          "id": "621920605978cd435ce7cf1f",
+          "choice": "Taxi Cat",
+          "anchored": false,
+          "exclusive": false,
+          "value": 2
+        }
+      ],
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf20",
+      "question": "Why is James crying today?",
+      "type": "DROPDOWN",
+      "variableName": "dropdown_1",
+      "isRequired": true,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf24",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf21",
+            "text": "He doesn't want to put on socks"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf25",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf22",
+            "text": "He wants to put on socks"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf26",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf23",
+            "text": "Someone said the word sock"
+          }
+        ]
+      },
+      "choiceObjects": [
+        {
+          "text": "He doesn't want to put on socks",
+          "styledText": "He doesn't want to put on socks",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf24",
+          "exclusive": false
+        },
+        {
+          "text": "He wants to put on socks",
+          "styledText": "He wants to put on socks",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf25",
+          "exclusive": false
+        },
+        {
+          "text": "Someone said the word sock",
+          "styledText": "Someone said the word sock",
+          "anchored": false,
+          "_id": "621920605978cd435ce7cf26",
+          "exclusive": false
+        }
+      ],
+      "choices": [
+        {
+          "id": "621920605978cd435ce7cf24",
+          "choice": "He doesn't want to put on socks",
+          "anchored": false,
+          "exclusive": false,
+          "value": 1
+        },
+        {
+          "id": "621920605978cd435ce7cf25",
+          "choice": "He wants to put on socks",
+          "anchored": false,
+          "exclusive": false,
+          "value": 2
+        },
+        {
+          "id": "621920605978cd435ce7cf26",
+          "choice": "Someone said the word sock",
+          "anchored": false,
+          "exclusive": false,
+          "value": 3
+        }
+      ],
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf27",
+      "question": "How many socks is Jonathan wearing at any given time? (it's 1)",
+      "type": "NUMERIC",
+      "variableName": "num_1",
+      "isRequired": true,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER"
+      },
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf28",
+      "question": "What percent of a pizza does Dylan aim for when eating in a group?",
+      "type": "PERCENT",
+      "variableName": "percent_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER"
+      },
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf29",
+      "question": "When was the last time you cried laughing?",
+      "type": "DATE",
+      "variableName": "date_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "DATETIME"
+      },
+      "dataType": "DATETIME",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf2a",
+      "question": "What is the best time of day to get Maharaja?",
+      "type": "TIME",
+      "variableName": "time_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "DATETIME"
+      },
+      "dataType": "DATETIME",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf2b",
+      "question": "Honestly, no idea what to do with this question type.the ideal number of meals from Maharaja in a given week is:{{pipe_3}} * 21",
+      "type": "FORMULA",
+      "variableName": "calculated_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER"
+      },
+      "dataType": "NUMBER",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf2c",
+      "question": "Please supply a meme or doggo:",
+      "type": "PICTURE",
+      "variableName": "image_up",
+      "isRequired": true,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf2d",
+      "question": "please don't make me import audio via a csv but by all means tell a corny joke that I can use on the kids",
+      "type": "AUDIO",
+      "variableName": "audio_up",
+      "isRequired": true,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf2e",
+      "question": "For videos of dogs",
+      "type": "VIDEO",
+      "variableName": "video_up_1",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    },
+    {
+      "id": "621920605978cd435ce7cf2f",
+      "question": "Here's an image to cue with",
+      "type": "INFORMATION",
+      "variableName": "quest_1605836832131",
+      "isRequired": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING"
+      },
+      "dataType": "STRING",
+      "pinToProfile": false
+    }
+  ]
+}

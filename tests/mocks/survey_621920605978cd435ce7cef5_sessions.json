@@ -1,0 +1,2372 @@
+{
+  "surveyMeta": {
+    "621920605978cd435ce7cefa": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cefa",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Whatcha thinkin about?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "TEXT",
+      "variableName": "free_text_1",
+      "isDisabled": true,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "62c4ee79ed12da2e0e63e223": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "62c4ee79ed12da2e0e63e223",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Whatcha thinkin about?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "TEXT",
+      "variableName": "free_text_1_v2",
+      "isDisabled": true,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "62c4ef256e3575da55b8f8bc": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "62c4ef256e3575da55b8f8bc",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Whatcha thinkin' about?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "TEXT",
+      "variableName": "free_text_v3",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cefb": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cefb",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "I DECLARE BANKRUPTCY. At least, I think this is a \"cue\" style question",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "INFORMATION",
+      "variableName": "read_this",
+      "isDisabled": false,
+      "required": true,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cefc": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cefc",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "LOCATION",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Where exactly is the best food in the square?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "GEOLOCATION",
+      "variableName": "geo_1",
+      "isDisabled": true,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cefd": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cefd",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING_ARRAY",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf01",
+            "value": 2,
+            "_id": "621920605978cd435ce7cefe"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf02",
+            "value": 3,
+            "_id": "621920605978cd435ce7ceff"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf03",
+            "value": 4,
+            "_id": "621920605978cd435ce7cf00"
+          }
+        ],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "fave pizza toppings?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "MULTIPLE_CHOICE",
+      "variableName": "msq_1",
+      "isDisabled": false,
+      "required": true,
+      "isHidden": false,
+      "choices": [
+        "ham",
+        "double pepp ( \u0361\u00b0 \u035c\u0296 \u0361\u00b0) ",
+        "pineapple"
+      ],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf04": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf04",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf08",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf05"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf09",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf06"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf0a",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf07"
+          }
+        ],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Best food in the square?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "SINGLE_CHOICE",
+      "variableName": "mcq_1 (3)",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [
+        "Maharaja",
+        "Nochs",
+        "Felipes"
+      ],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf0b": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf0b",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "What email do you wish you had?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "EMAIL",
+      "variableName": "email_1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": true,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf0c": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf0c",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Drop them digits \ud83d\udc40 hahaha jk...unless?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "PHONE_NUMBER",
+      "variableName": "phone_1",
+      "isDisabled": true,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf0d": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf0d",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf11",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf0e"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf12",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf0f"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf13",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf10"
+          }
+        ],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "What has been the longest part of 2020?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "SLIDING_SCALE",
+      "variableName": "slide_1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [
+        "beginning",
+        "middle",
+        "end"
+      ],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf14": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf14",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf18",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf15"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf19",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf16"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf1a",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf17"
+          }
+        ],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "How many times in a given week it is appropriate to pickup {{pipe_1}} in pajamas?{{pipe_1}}",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "RANGE_SCALE",
+      "variableName": "range_1",
+      "isDisabled": true,
+      "required": false,
+      "isHidden": false,
+      "choices": [
+        "None",
+        "Many",
+        "All of the times"
+      ],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      },
+      "rangeSteps": [
+        3,
+        4,
+        5
+      ],
+      "rangeMin": 0,
+      "rangeStepSize": 1
+    },
+    "621920605978cd435ce7cf1b": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf1b",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf1e",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf1c"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf1f",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf1d"
+          }
+        ],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "What even is this type?? How does this question type make Dylan feel?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "IMAGE_SLIDER",
+      "variableName": "image_slider",
+      "isDisabled": true,
+      "required": false,
+      "isHidden": false,
+      "choices": [
+        "Harold",
+        "Taxi Cat"
+      ],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      },
+      "rangeSteps": [
+        5,
+        5
+      ],
+      "rangeMin": 0,
+      "rangeStepSize": 1
+    },
+    "621920605978cd435ce7cf20": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf20",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [
+          {
+            "choiceId": "621920605978cd435ce7cf24",
+            "value": 1,
+            "_id": "621920605978cd435ce7cf21"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf25",
+            "value": 2,
+            "_id": "621920605978cd435ce7cf22"
+          },
+          {
+            "choiceId": "621920605978cd435ce7cf26",
+            "value": 3,
+            "_id": "621920605978cd435ce7cf23"
+          }
+        ],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Why is James crying today?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "DROPDOWN",
+      "variableName": "dropdown_1",
+      "isDisabled": false,
+      "required": true,
+      "isHidden": false,
+      "choices": [
+        "He doesn't want to put on socks",
+        "He wants to put on socks",
+        "Someone said the word sock"
+      ],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf27": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf27",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "How many socks is Jonathan wearing at any given time? (it's 1)",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "NUMERIC",
+      "variableName": "num_1",
+      "isDisabled": false,
+      "required": true,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf28": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf28",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "What percent of a pizza does Dylan aim for when eating in a group?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "PERCENT",
+      "variableName": "percent_1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf29": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf29",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "DATETIME",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "When was the last time you cried laughing?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "DATE",
+      "variableName": "date_1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf2a": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf2a",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "DATETIME",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "What is the best time of day to get Maharaja?",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "TIME",
+      "variableName": "time_1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf2b": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf2b",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "NUMBER",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Honestly, no idea what to do with this question type.the ideal number of meals from Maharaja in a given week is:{{pipe_3}} * 21",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "FORMULA",
+      "variableName": "calculated_1",
+      "isDisabled": true,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf2c": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf2c",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Please supply a meme or doggo:",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "PICTURE",
+      "variableName": "image_up",
+      "isDisabled": false,
+      "required": true,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      },
+      "blurFaces": false
+    },
+    "621920605978cd435ce7cf2d": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf2d",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "please don't make me import audio via a csv but by all means tell a corny joke that I can use on the kids",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "AUDIO",
+      "variableName": "audio_up",
+      "isDisabled": false,
+      "required": true,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf2e": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf2e",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "For videos of dogs",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "VIDEO",
+      "variableName": "video_up_1",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    },
+    "621920605978cd435ce7cf2f": {
+      "surveyName": "Reg NIS Test ($)",
+      "surveyType": "MOBILE",
+      "surveyId": "621920605978cd435ce7cef5",
+      "id": "621920605978cd435ce7cf2f",
+      "hasSubmissionSessionId": false,
+      "recodedValue": {
+        "pinToProfile": false,
+        "dataType": "STRING",
+        "choiceValues": [],
+        "rowVariableNames": [],
+        "columnVariableNames": [],
+        "gridValues": []
+      },
+      "question": "Here's an image to cue with",
+      "hasPicture": false,
+      "hasVideo": false,
+      "hasAudio": false,
+      "researcherAttachment": "",
+      "type": "INFORMATION",
+      "variableName": "quest_1605836832131",
+      "isDisabled": false,
+      "required": false,
+      "isHidden": false,
+      "choices": [],
+      "dynamicCondition": {
+        "userIds": [],
+        "invert": false
+      }
+    }
+  },
+  "submissions": [
+    {
+      "responseId": "6227b4611a7d7d4a1cc4e81a",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cef5",
+      "userId": "621962dfd8a820142555ba0f",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "f00fada7-52c1-4ec6-b3fe-288a950ae49c",
+      "trigger": {
+        "id": "621920605978cd435ce7cf53",
+        "timestamp": 1646758375000,
+        "index": 35,
+        "type": "RANDOM",
+        "name": "Daily 9-5"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.3.1",
+        "appVersion": "1.4.4",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "621964bbd8a820142555ba31",
+      "timestamp": {
+        "updated": 1646769247001,
+        "created": 1646769163991
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "621920605978cd435ce7cefa": {
+          "response": "huh. how\u2019d that happen",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cefb": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cefd": {
+          "response": "double pepp ( \u0361\u00b0 \u035c\u0296 \u0361\u00b0) ",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf04": {
+          "response": "Maharaja",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0b": {
+          "response": "foo@bar",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0d": {
+          "response": "middle",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf20": {
+          "response": "He doesn't want to put on socks",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf27": {
+          "response": 2,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf28": {
+          "response": 59,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf29": {
+          "response": "03/07/2022",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2a": {
+          "response": "14:53",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2c": {
+          "response": "1646769248039$$image_picker_AF1ADD0B_B591_479E_87DF_3D2A1FBD9429_60785_00000DD50924105C.jpg",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2d": {
+          "response": "1646769248851$$621920605978cd435ce7cf2d.m4a",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2e": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2f": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "14:52:43"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "14:54:07"
+            }
+          }
+        }
+      },
+      "timeZoneMinutes": -300,
+      "timeZoneReadable": "-5:00",
+      "triggerTimeLocal": {
+        "date": "08/03/2022",
+        "time": "11:52:55"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "08/03/2022",
+        "time": "14:52:43"
+      },
+      "timestampUpdatedLocal": {
+        "date": "08/03/2022",
+        "time": "14:54:07"
+      }
+    },
+    {
+      "responseId": "6227bb082c65f5e3cdc49616",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cef5",
+      "userId": "621962dfd8a820142555ba0f",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "cf176cd3-349b-44e6-86ea-3d1313a68693",
+      "trigger": {
+        "id": "621920605978cd435ce7cf53",
+        "timestamp": 1646770176000,
+        "index": 36,
+        "type": "RANDOM",
+        "name": "Daily 9-5"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.3.1",
+        "appVersion": "1.4.4",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "621964bbd8a820142555ba31",
+      "timestamp": {
+        "updated": 1646770950109,
+        "created": 1646770899057
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "621920605978cd435ce7cefa": {
+          "response": "foo",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cefb": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cefd": {
+          "response": "double pepp ( \u0361\u00b0 \u035c\u0296 \u0361\u00b0) ",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf04": {
+          "response": "Nochs",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0b": {
+          "response": "RESPONSE_HIDDEN",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0d": {
+          "response": "end",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf20": {
+          "response": "Someone said the word sock",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf27": {
+          "response": 1,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf28": {
+          "response": 48,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf29": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2a": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2c": {
+          "response": "1646770951103$$image_picker_910480F8_252E_4935_A7FF_78DB6FD68618_60785_00000DD9B97E70DC.jpg",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2d": {
+          "response": "1646770951821$$621920605978cd435ce7cf2d.m4a",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2e": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2f": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "08/03/2022",
+              "time": "15:21:39"
+            },
+            "updated": {
+              "date": "08/03/2022",
+              "time": "15:22:30"
+            }
+          }
+        }
+      },
+      "timeZoneMinutes": -300,
+      "timeZoneReadable": "-5:00",
+      "triggerTimeLocal": {
+        "date": "08/03/2022",
+        "time": "15:09:36"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "08/03/2022",
+        "time": "15:21:39"
+      },
+      "timestampUpdatedLocal": {
+        "date": "08/03/2022",
+        "time": "15:22:30"
+      }
+    },
+    {
+      "responseId": "62c5c9266e3575da55b98eae",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cef5",
+      "userId": "5fbad2f7fe09383c7895afd0",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "f88cfc8f-7716-4b95-9067-afbd8ac61596",
+      "trigger": {
+        "id": "62c5c8b3ed12da2e0e645613",
+        "timestamp": 1657129080000,
+        "index": 1,
+        "type": "ONCE",
+        "name": "insanity check"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.5",
+        "appVersion": "1.8.6",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "627ac263464fecb01aa7f87f",
+      "timestamp": {
+        "updated": 1657129251444,
+        "created": 1657129177948
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "62c4ef256e3575da55b8f8bc": {
+          "response": "terrifying",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:39:37"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:39:44"
+            }
+          }
+        },
+        "621920605978cd435ce7cefb": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:39:45"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:39:45"
+            }
+          }
+        },
+        "621920605978cd435ce7cefd": {
+          "response": "double pepp ( \u0361\u00b0 \u035c\u0296 \u0361\u00b0) ",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:39:46"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:39:48"
+            }
+          }
+        },
+        "621920605978cd435ce7cf04": {
+          "response": "Maharaja",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:39:49"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:39:50"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0b": {
+          "response": "dylan@apoth.app",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:39:50"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:39:56"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0d": {
+          "response": "middle",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:39:57"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:39:58"
+            }
+          }
+        },
+        "621920605978cd435ce7cf20": {
+          "response": "Someone said the word sock",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:39:59"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:08"
+            }
+          }
+        },
+        "621920605978cd435ce7cf27": {
+          "response": 1,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:40:09"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:11"
+            }
+          }
+        },
+        "621920605978cd435ce7cf28": {
+          "response": 73,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:40:12"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:14"
+            }
+          }
+        },
+        "621920605978cd435ce7cf29": {
+          "response": "07/06/2022",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:40:15"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:20"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2a": {
+          "response": "13:40",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:40:21"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:23"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2c": {
+          "response": "1657129253409$$image_picker_C03C0C13_2FB0_4D71_9959_D93721582F5A_23206_0000038AA924F014.jpg",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:40:24"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:36"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2d": {
+          "response": "1657129254327$$621920605978cd435ce7cf2d.m4a",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:40:37"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:46"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2e": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:40:47"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:47"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2f": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "13:40:49"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "13:40:49"
+            }
+          }
+        }
+      },
+      "userInfo": {
+        "userId": "5fbad2f7fe09383c7895afd0"
+      },
+      "timeZoneMinutes": -240,
+      "timeZoneReadable": "-4:00",
+      "triggerTimeLocal": {
+        "date": "06/07/2022",
+        "time": "13:38:00"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "06/07/2022",
+        "time": "13:39:37"
+      },
+      "timestampUpdatedLocal": {
+        "date": "06/07/2022",
+        "time": "13:40:51"
+      }
+    },
+    {
+      "responseId": "62c62ac4509d9b8c8c0ada10",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cef5",
+      "userId": "5fbad2f7fe09383c7895afd0",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "ec263e55-0bf4-45a6-bd55-be8c95c89f63",
+      "trigger": {
+        "id": "62c62a81509d9b8c8c0ad9d6",
+        "timestamp": 1657154160000,
+        "index": 1,
+        "type": "ONCE",
+        "name": "last one"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.5",
+        "appVersion": "1.8.6",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "627ac263464fecb01aa7f87f",
+      "timestamp": {
+        "updated": 1657154239220,
+        "created": 1657154192670
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "62c4ef256e3575da55b8f8bc": {
+          "response": "text works!",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:32"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:36:38"
+            }
+          }
+        },
+        "621920605978cd435ce7cefb": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:39"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:36:39"
+            }
+          }
+        },
+        "621920605978cd435ce7cefd": {
+          "response": "ham",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:40"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:36:41"
+            }
+          }
+        },
+        "621920605978cd435ce7cf04": {
+          "response": "Maharaja",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:41"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:36:42"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0b": {
+          "response": "abc@123.com",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:42"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:36:50"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0d": {
+          "response": "middle",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:50"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:36:51"
+            }
+          }
+        },
+        "621920605978cd435ce7cf20": {
+          "response": "He doesn't want to put on socks",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:52"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:36:54"
+            }
+          }
+        },
+        "621920605978cd435ce7cf27": {
+          "response": 1,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:55"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:36:59"
+            }
+          }
+        },
+        "621920605978cd435ce7cf28": {
+          "response": 26,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:36:59"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:37:00"
+            }
+          }
+        },
+        "621920605978cd435ce7cf29": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:37:01"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:37:03"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2a": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:37:04"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:37:04"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2c": {
+          "response": "1657154242583$$image_picker_D8F74F77_1ECB_46C5_9527_5681447024CF_457_00000005EDE0AC7D.jpg",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:37:04"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:37:13"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2d": {
+          "response": "1657154243495$$621920605978cd435ce7cf2d.m4a",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:37:13"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:37:16"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2e": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:37:17"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:37:17"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2f": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:37:17"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:37:17"
+            }
+          }
+        }
+      },
+      "userInfo": {
+        "userId": "5fbad2f7fe09383c7895afd0"
+      },
+      "timeZoneMinutes": -240,
+      "timeZoneReadable": "-4:00",
+      "triggerTimeLocal": {
+        "date": "06/07/2022",
+        "time": "20:36:00"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:36:32"
+      },
+      "timestampUpdatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:37:19"
+      }
+    },
+    {
+      "responseId": "62c62c4f509d9b8c8c0adc3c",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cef5",
+      "userId": "5fbad2f7fe09383c7895afd0",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "19bfaeeb-7365-4d98-9620-008523dbd1a0",
+      "trigger": {
+        "id": "62c62c038c8fc952d4e7e0b0",
+        "timestamp": 1657154520000,
+        "index": 1,
+        "type": "ONCE",
+        "name": ""
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.5",
+        "appVersion": "1.8.6",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "627ac263464fecb01aa7f87f",
+      "timestamp": {
+        "updated": 1657154631109,
+        "created": 1657154584623
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "62c4ef256e3575da55b8f8bc": {
+          "response": "wrong survey",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:04"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:13"
+            }
+          }
+        },
+        "621920605978cd435ce7cefb": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:14"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:14"
+            }
+          }
+        },
+        "621920605978cd435ce7cefd": {
+          "response": "pineapple",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:15"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:16"
+            }
+          }
+        },
+        "621920605978cd435ce7cf04": {
+          "response": "Nochs",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:16"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:25"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0b": {
+          "response": "dylan@apoth.app",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:17"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:29"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0d": {
+          "response": "end",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:29"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:30"
+            }
+          }
+        },
+        "621920605978cd435ce7cf20": {
+          "response": "He wants to put on socks",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:31"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:33"
+            }
+          }
+        },
+        "621920605978cd435ce7cf27": {
+          "response": 1,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:34"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:35"
+            }
+          }
+        },
+        "621920605978cd435ce7cf28": {
+          "response": 68,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:35"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:36"
+            }
+          }
+        },
+        "621920605978cd435ce7cf29": {
+          "response": "07/06/2022",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:37"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:39"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2a": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:39"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:39"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2c": {
+          "response": "1657154637829$$image_picker_0C8032D7_165A_4885_93E5_3F5951FDA745_457_00000007E71997C5.jpg",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:41"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:45"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2d": {
+          "response": "1657154638649$$621920605978cd435ce7cf2d.m4a",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:45"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:49"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2e": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:49"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:49"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2f": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:43:50"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:43:50"
+            }
+          }
+        }
+      },
+      "userInfo": {
+        "userId": "5fbad2f7fe09383c7895afd0"
+      },
+      "timeZoneMinutes": -240,
+      "timeZoneReadable": "-4:00",
+      "triggerTimeLocal": {
+        "date": "06/07/2022",
+        "time": "20:42:00"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:43:04"
+      },
+      "timestampUpdatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:43:51"
+      }
+    },
+    {
+      "responseId": "62c62d5a509d9b8c8c0addeb",
+      "studyId": "621920605978cd435ce7cf72",
+      "surveyId": "621920605978cd435ce7cef5",
+      "userId": "5fbad2f7fe09383c7895afd0",
+      "diaryId": "",
+      "diaryName": "",
+      "submissionSessionId": "f35eba38-3743-415f-94a2-5b6cc7f4ac6d",
+      "trigger": {
+        "id": "621920605978cd435ce7cf48",
+        "timestamp": 1657154839000,
+        "index": 2,
+        "type": "Participant Action",
+        "name": "Response based"
+      },
+      "device": {
+        "os": "ios",
+        "osVersion": "15.5",
+        "appVersion": "1.8.6",
+        "model": "iPhone14,2"
+      },
+      "sourceType": "Assessment",
+      "deviceId": "627ac263464fecb01aa7f87f",
+      "timestamp": {
+        "updated": 1657154900826,
+        "created": 1657154851390
+      },
+      "diaryTimestamp": {},
+      "questionValues": {
+        "62c4ef256e3575da55b8f8bc": {
+          "response": "no ",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:31"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:35"
+            }
+          }
+        },
+        "621920605978cd435ce7cefb": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:37"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:37"
+            }
+          }
+        },
+        "621920605978cd435ce7cefd": {
+          "response": "pineapple",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:37"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:39"
+            }
+          }
+        },
+        "621920605978cd435ce7cf04": {
+          "response": "Felipes",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:39"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:40"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0b": {
+          "response": "RESPONSE_HIDDEN",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:40"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:40"
+            }
+          }
+        },
+        "621920605978cd435ce7cf0d": {
+          "response": "beginning",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:41"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:42"
+            }
+          }
+        },
+        "621920605978cd435ce7cf20": {
+          "response": "He wants to put on socks",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:43"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:45"
+            }
+          }
+        },
+        "621920605978cd435ce7cf27": {
+          "response": 1,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:46"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:47"
+            }
+          }
+        },
+        "621920605978cd435ce7cf28": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:48"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:48"
+            }
+          }
+        },
+        "621920605978cd435ce7cf29": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:48"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:49"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2a": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:49"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:47:49"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2c": {
+          "response": "1657154904795$$image_picker_14E7C394_3297_4B3D_AB74_0A6B98C3D79B_457_000000091C9774B5.jpg",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:47:50"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:48:14"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2d": {
+          "response": "1657154905584$$621920605978cd435ce7cf2d.m4a",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:48:15"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:48:18"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2e": {
+          "response": "SKIPPED",
+          "skipped": true,
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:48:19"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:48:19"
+            }
+          }
+        },
+        "621920605978cd435ce7cf2f": {
+          "response": "INFORMATION_QUESTION",
+          "picture": "",
+          "timestamp": {
+            "created": {
+              "date": "06/07/2022",
+              "time": "20:48:20"
+            },
+            "updated": {
+              "date": "06/07/2022",
+              "time": "20:48:20"
+            }
+          }
+        }
+      },
+      "userInfo": {
+        "userId": "5fbad2f7fe09383c7895afd0"
+      },
+      "timeZoneMinutes": -240,
+      "timeZoneReadable": "-4:00",
+      "triggerTimeLocal": {
+        "date": "06/07/2022",
+        "time": "20:47:19"
+      },
+      "submissionLocation": "",
+      "timestampCreatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:47:31"
+      },
+      "timestampUpdatedLocal": {
+        "date": "06/07/2022",
+        "time": "20:48:20"
+      }
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "total": 6,
+    "totalMissed": 0,
+    "randomizedOutSubmissionsCount": 0,
+    "currentPage": 1,
+    "totalPages": 1
+  },
+  "studyName": "Catalyst API playground",
+  "surveyName": "Reg NIS Test ($)"
+}
