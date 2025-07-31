@@ -3,6 +3,7 @@ data/**
 dist
 build
 __pycache__
+.idea/copilotDiffState.xml
 .venv-*
 tmp
 planning
