@@ -133,8 +133,8 @@ if page == "Download":
     # show last update
     if sessions_csv.exists():
         try:
-            df_old = pd.read_csv(sessions_csv, parse_dates=["started_at_utc"])
-            df_old["started_at_utc"] = pd.to_datetime(df_old["started_at_utc"], format="ISO8601")
+            df_old = pd.read_csv(sessions_csv)
+            df_old["started_at_utc"] = pd.to_datetime(df_old["started_at_utc"], format="ISO8601", utc=True)
             # check for any NA values in the started_at_utc column
             last = df_old["started_at_utc"].max().strftime("%Y-%m-%d %H:%M:%S")
             st.info(f"Latest session started: **{last} (UTC)**")
@@ -208,7 +208,9 @@ if page == "Download":
                 if not sessions_csv.exists():
                     st.error("No sessions.csv found.")
                 else:
-                    sess_df = pd.read_csv(sessions_csv, parse_dates=["started_at_utc", "ended_at_utc"])
+                    sess_df = pd.read_csv(sessions_csv)
+                    sess_df["started_at_utc"] = pd.to_datetime(sess_df["started_at_utc"], format="ISO8601", utc=True)
+                    sess_df["ended_at_utc"] = pd.to_datetime(sess_df["ended_at_utc"], format="ISO8601", utc=True)
                     sess_df["within_study_id"] = sess_df["mw_participant_alias"].map(alias_map)
                     sess_df.to_csv(sessions_csv, index=False)
                     st.success("IDs matched & sessions.csv updated!")
@@ -227,7 +229,9 @@ if page == "Download":
     tabs = st.tabs(["Sessions", "Questions", "Responses"])
     with tabs[0]:
         if sessions_csv.exists():
-            df = pd.read_csv(sessions_csv, parse_dates=["started_at_utc", "ended_at_utc"])
+            df = pd.read_csv(sessions_csv)
+            df["started_at_utc"] = pd.to_datetime(df["started_at_utc"], format="ISO8601", utc=True)
+            df["ended_at_utc"] = pd.to_datetime(df["ended_at_utc"], format="ISO8601", utc=True)
             st.dataframe(df)
         else:
             st.info("No sessions downloaded.")
@@ -238,7 +242,10 @@ if page == "Download":
             st.info("No questions downloaded. Make sure you have a question config selected.")
     with tabs[2]:
         if responses_csv.exists() and list(filter(lambda x: "question" in x, cfg_files)):
-            st.dataframe(pd.read_csv(responses_csv, parse_dates=["opened_at", "responded_at"]))
+            resp_df = pd.read_csv(responses_csv)
+            resp_df["opened_at"] = pd.to_datetime(resp_df["opened_at"], format="ISO8601", utc=True)
+            resp_df["responded_at"] = pd.to_datetime(resp_df["responded_at"], format="ISO8601", utc=True)
+            st.dataframe(resp_df)
         else:
             st.info("No responses downloaded. Make sure you have a question config selected.")
 
@@ -297,7 +304,8 @@ elif page == "Tag and visualize":
     # ─────────────────────────────────────────────────────────────────────────
     # 3) Load & explode tagged_sessions.csv
     # ─────────────────────────────────────────────────────────────────────────
-    tagged = pd.read_csv(tagged_csv, parse_dates=["started_at_utc"])
+    tagged = pd.read_csv(tagged_csv)
+    tagged["started_at_utc"] = pd.to_datetime(tagged["started_at_utc"], format="ISO8601", utc=True)
     tagged["session_tags"] = tagged["session_tags"].fillna("")
     df = (
         tagged.assign(
@@ -407,9 +415,12 @@ elif page == "Tag and visualize":
         )
         resp_pid = st.text_input("Participant ID", key="rpid")
         # load raw responses
-        resp = pd.read_csv(responses_csv, parse_dates=["opened_at", "responded_at"])
+        resp = pd.read_csv(responses_csv)
+        resp["opened_at"] = pd.to_datetime(resp["opened_at"], format="ISO8601", utc=True)
+        resp["responded_at"] = pd.to_datetime(resp["responded_at"], format="ISO8601", utc=True)
         # join with sessions to get local_day & participant
-        sess = pd.read_csv(sessions_csv, parse_dates=["started_at_utc"])
+        sess = pd.read_csv(sessions_csv)
+        sess["started_at_utc"] = pd.to_datetime(sess["started_at_utc"], format="ISO8601", utc=True)
         sess["local_day"] = (
             sess["started_at_utc"]
             .dt.tz_convert(user_tz)

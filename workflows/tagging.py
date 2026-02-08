@@ -9,8 +9,12 @@ import pandas as pd
 def load_study_data(study_name: str, data_root: str = "data") -> Tuple[pd.DataFrame, pd.DataFrame]:
     """Load sessions and responses CSVs for a study."""
     base = os.path.join(data_root, study_name)
-    sessions = pd.read_csv(os.path.join(base, "sessions.csv"), parse_dates=["started_at_utc", "ended_at_utc"])
-    responses = pd.read_csv(os.path.join(base, "responses.csv"), parse_dates=["opened_at", "responded_at"])
+    sessions = pd.read_csv(os.path.join(base, "sessions.csv"))
+    sessions["started_at_utc"] = pd.to_datetime(sessions["started_at_utc"], format="ISO8601", utc=True)
+    sessions["ended_at_utc"] = pd.to_datetime(sessions["ended_at_utc"], format="ISO8601", utc=True)
+    responses = pd.read_csv(os.path.join(base, "responses.csv"))
+    responses["opened_at"] = pd.to_datetime(responses["opened_at"], format="ISO8601", utc=True)
+    responses["responded_at"] = pd.to_datetime(responses["responded_at"], format="ISO8601", utc=True)
     return sessions, responses
 
 

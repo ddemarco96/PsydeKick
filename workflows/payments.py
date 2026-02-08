@@ -236,7 +236,9 @@ def render_participant_and_settings_ui(
         st.error(f"Required `sessions.csv` not found at `{sessions_csv_path}`.")
         return None, None, start_date_val, user_tz_val
     try:
-        all_sessions_df = pd.read_csv(sessions_csv_path, parse_dates=["started_at_utc", "ended_at_utc"])
+        all_sessions_df = pd.read_csv(sessions_csv_path)
+        all_sessions_df["started_at_utc"] = pd.to_datetime(all_sessions_df["started_at_utc"], format="ISO8601", utc=True)
+        all_sessions_df["ended_at_utc"] = pd.to_datetime(all_sessions_df["ended_at_utc"], format="ISO8601", utc=True)
         if "within_study_id" not in all_sessions_df.columns:
             st.error("`sessions.csv` is missing `within_study_id` column.")
             return None, all_sessions_df, start_date_val, user_tz_val
